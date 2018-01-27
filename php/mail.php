@@ -8,22 +8,22 @@ if (!empty($_POST)){
   $_POST  = multiDimensionalArrayMap('cleanEvilTags', $_POST);
   $_POST  = multiDimensionalArrayMap('cleanData', $_POST);
 
-  //your email adress 
-  $emailTo ="yourmail@yoursite.com"; //"yourmail@yoursite.com";
+  //your email adress
+  $emailTo ="vshubham5636@gmail.com"; //"yourmail@yoursite.com";
 
   //from email adress
-  $emailFrom ="contact@yoursite.com"; //"contact@yoursite.com";
+  $emailFrom ="vshubham5636@gmail.com"; //"contact@yoursite.com";
 
   //email subject
-  $emailSubject = "Mail from Porta";
+  $emailSubject = "Mail from IEEE NSIT";
 
   $name = $_POST["name"];
   $email = $_POST["email"];
   $comment = $_POST["comment"];
   if($name == "")
    $data['success'] = false;
- 
- if (!preg_match("/^[_\.0-9a-zA-Z-]+@([0-9a-zA-Z][0-9a-zA-Z-]+\.)+[a-zA-Z]{2,6}$/i", $email)) 
+
+ if (!preg_match("/^[_\.0-9a-zA-Z-]+@([0-9a-zA-Z][0-9a-zA-Z-]+\.)+[a-zA-Z]{2,6}$/i", $email))
    $data['success'] = false;
 
 
@@ -37,8 +37,8 @@ if (!empty($_POST)){
   COMMENT: $comment";
 
 
-  $headers = "MIME-Version: 1.0" . "\r\n"; 
-  $headers .= "Content-type:text/html; charset=utf-8" . "\r\n"; 
+  $headers = "MIME-Version: 1.0" . "\r\n";
+  $headers .= "Content-type:text/html; charset=utf-8" . "\r\n";
   $headers .= "From: <$emailFrom>" . "\r\n";
   mail($emailTo, $emailSubject, $message, $headers);
 
