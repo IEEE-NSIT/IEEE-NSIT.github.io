@@ -21,7 +21,7 @@
  3.6 Newsletter
  3.7 Contact
  3.8 Footer
-4 Responsive 
+4 Responsive
 **********************************************************************/
 
 /*
@@ -275,7 +275,7 @@ p {
     -ms-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
-.thumbnail h3, 
+.thumbnail h3,
 .thumbnail p {
     margin:0;
     padding:0;
@@ -335,7 +335,7 @@ p {
     color:#181A1C;
 }
 /*
-3. Sections 
+3. Sections
 ***************************************************************************/
  .section {
     padding-bottom: 50px;
@@ -403,7 +403,7 @@ p {
     padding:0;
 }
 /*******
-3.1 Services  
+3.1 Services
 ***************************************/
 .service{
     margin-top:20px;
@@ -593,7 +593,7 @@ p {
 .testimonial .whopic small {
     display:block;
     font-size:12px;
-    
+
 }
 .testimonial-text{
     display:block;
@@ -757,25 +757,26 @@ p {
 }
 .contact-form {
     background:#fff;
-    background: rgba(255, 255, 255, 0.9);
+    background: #FECE1A;
     z-index:110;
     position:relative;
     margin-top:-25px;
     padding:20px;
 }
 .contact-form h3 {
-    color:#838589;
+    color:#000000;
     padding-bottom:20px;
 }
 .message-btn {
-    border:1px solid #747C89;
-    color:#747C89;
+    border:1px solid #000000;
+    color:#000000;
     background-color:transparent;
     padding:15px 30px;
     font-size:17px;
 }
 .message-btn:hover {
-    background-color:#FECE1A;
+    background-color:#000000;
+    color:#FECE1A;
 }
 .contact-info {
     text-align:center;
