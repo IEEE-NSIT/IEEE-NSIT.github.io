@@ -1037,37 +1037,43 @@ To train a large number of students in the RF area and set up low-cost RF labora
                 <div class="row-fluid text-center">
 
                     <div class="col-md-4 col-xs-12">
-                      <div class="contact-form col-md-4 centered">
+                      <div class="contact-form col-md-4 centered" data-wow-duration="500ms" data-wow-delay="300ms">
                           <h3>Say Hello</h3>
                           <div id="successSend" class="alert alert-success invisible">
                               <strong>Well done!</strong>Your message has been sent.</div>
                           <div id="errorSend" class="alert alert-error invisible">There was an error.</div>
 
-                          <form id="contact-form" action="https://formspree.io/ieeensitdu@gmail.com" method="POST">
-                              <div class="control-group">
-                                  <div class="controls">
-                                      <input class="span12" type="text" id="name" name="name" placeholder="* Your name..." />
-                                      <div class="error left-align" id="err-name">Please enter name.</div>
-                                  </div>
-                              </div>
-                              <div class="control-group">
-                                  <div class="controls">
-                                      <input class="span12" type="email" name="email" id="email" placeholder="* Your email..." />
-                                      <div class="error left-align" id="err-email">Please enter valid email adress.</div>
-                                  </div>
-                              </div>
-                              <div class="control-group">
-                                  <div class="controls">
-                                      <textarea class="span12" name="comment" id="comment" placeholder="* Comments..."></textarea>
-                                      <div class="error left-align" id="err-comment">Please enter your comment.</div>
-                                  </div>
-                              </div>
-                              <div class="control-group">
-                                  <div class="controls">
-                                      <button id="send-mail" class="message-btn" type="submit">Send message</button>
-                                  </div>
-                              </div>
-                          </form>
+                          <form id="contact-form" method="post" action="https://formspree.io/ieeensitdu@gmail.com" role="form">
+
+                  					<div class="form-group">
+                  						<input type="text" placeholder="Your Name" class="form-control span12" name="name" id="name">
+                  					</div>
+
+                  					<div class="form-group">
+                  						<input type="email" placeholder="Your Email" class="form-control span12" name="email" id="email">
+                  					</div>
+
+                  					<div class="form-group">
+                  						<input type="text" placeholder="Subject" class="form-control span12" name="subject" id="subject">
+                  					</div>
+
+                  					<div class="form-group">
+                  						<textarea rows="6" placeholder="Message" class="form-control span12" name="message" id="message"></textarea>
+                  					</div>
+
+                  					<div id="mail-success" class="success">
+                  						Thank you. The Mailman is on His Way :)
+                  					</div>
+                  
+                  					<div id="mail-fail" class="error">
+                  						Sorry, don't know what happened. Try later :(
+                  					</div>
+
+                  					<div id="cf-submit">
+                  						<input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
+                  					</div>
+
+                  				</form>
                       </div>
                     </div>
 
