@@ -1,0 +1,35 @@
+body{
+    background-color: #212226;
+    margin: 0;
+}
+
+.content-box-md{
+    padding: 100px 0px;
+}
+
+#temp h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+
+#sponsors-list{
+    padding: 45px 0 0 0;
+}
+
+.owl-nav{
+    color: white;
+    font-size: 20px;
+}
+
+#sponsors-list .sponsor{
+    padding: 0 10px;
+    max-width: 150px;
+    margin: 0 auto;
+    line-height: 100px;
+}
+
+.sponsor img{
+    display: inline-block !important;
+}
