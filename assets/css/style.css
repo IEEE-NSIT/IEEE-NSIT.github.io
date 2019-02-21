@@ -117,7 +117,7 @@ h1,h2{
 #brochure-pdf{
     min-width: 50%;
     width: auto;
-    height: 1000px;
+    height: 600px;
     transform: translateX(50%);
 }
 
@@ -132,7 +132,7 @@ h1,h2{
 
 #sponsors-list .sponsor{
     padding: 0 10px;
-    max-width: 150px;
+    max-width: 250px;
     margin: 0 auto;
     line-height: 100px;
 }
