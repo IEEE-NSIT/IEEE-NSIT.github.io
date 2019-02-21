@@ -1,3 +1,6 @@
+var vid = document.querySelector('#home-bg-video');
+vid.playbackRate = 2;
+
 $(function(){
     $('#sponsors-list').owlCarousel({
         items:1,

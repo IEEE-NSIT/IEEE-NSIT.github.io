@@ -1,16 +1,92 @@
 body{
-    background-color: #212226;
+    color: white;
     margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+section{
+    background: #212226;
+    overflow: hidden;
 }
 
 .content-box-md{
     padding: 100px 0px;
 }
 
-#temp h1{
-    color: white;
+#home{
+    background: none;
+    height: 100%;
 }
-h2{
+
+#home-content{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+#home-content-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#home-bg-video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.overlay{
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: -1;
+}
+
+#home-heading h1{
+    color: #fff;
+    font-size: 65px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 0;
+    display: inline-block;
+}
+
+#home-heading h1 span{
+    color: blue;
+    font-weight: 600;
+}
+
+#arrow-down{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    color: #fff;
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    margin-left: -16px;
+    z-index: 1;
+}
+
+#arrow-down:hover{
+    color: #f4c613;
+}
+
+h1,h2{
     color: white;
 }
 
