@@ -7,6 +7,25 @@ html, body{
     height: 100%;
 }
 
+.horizontal-heading{
+    margin-bottom: 80px;
+}
+
+.horizontal-heading h5{
+    font-size: 16px;
+    color: #f4c613;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.horizontal-heading h2{
+    font-size: 42px;
+    font-weight: 100;
+    line-height: 45px;
+    margin: 0px;
+}
+
 section{
     background: #212226;
     overflow: hidden;
@@ -14,6 +33,10 @@ section{
 
 .content-box-md{
     padding: 100px 0px;
+}
+
+.content-box-lg{
+    padding: 120px 0;
 }
 
 #home{
@@ -65,7 +88,7 @@ section{
 }
 
 #home-heading h1 span{
-    color: blue;
+    color: #f4c613;
     font-weight: 600;
 }
 
@@ -88,6 +111,14 @@ section{
 
 h1,h2{
     color: white;
+}
+
+
+#brochure-pdf{
+    min-width: 50%;
+    width: auto;
+    height: 1000px;
+    transform: translateX(50%);
 }
 
 #sponsors-list{
