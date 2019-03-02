@@ -1,33 +1,15 @@
 body{
-    color: white;
+    color: black;
     margin: 0;
+    font-family: "GT-Walsheim_regular", sans-serif;
 }
 
 html, body{
     height: 100%;
 }
 
-.horizontal-heading{
-    margin-bottom: 80px;
-}
-
-.horizontal-heading h5{
-    font-size: 16px;
-    color: #f4c613;
-    text-transform: uppercase;
-    display: inline-block;
-    margin-bottom: 10px;
-}
-
-.horizontal-heading h2{
-    font-size: 42px;
-    font-weight: 100;
-    line-height: 45px;
-    margin: 0px;
-}
-
 section{
-    background: #212226;
+    background: lightgray;
     overflow: hidden;
 }
 
@@ -36,7 +18,29 @@ section{
 }
 
 .content-box-lg{
-    padding: 120px 0;
+    padding: 120px 0 0 0;
+}
+
+#preloader{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+#status{
+    background-image: url('/assets/images/preloader.gif');
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
 }
 
 #home{
@@ -80,7 +84,7 @@ section{
 
 #home-heading h1{
     color: #fff;
-    font-size: 65px;
+    font-size: 10vw;
     font-weight: 100;
     text-transform: uppercase;
     margin: 0;
@@ -113,12 +117,46 @@ h1,h2{
     color: white;
 }
 
+#events{
+    background-color: rgb(241, 245, 247);
+}
+.event{
+    height: 100vh;
+    margin: 50px 0;
+    padding: 30px 30px;
+    opacity: 0;
+}
 
-#brochure-pdf{
-    min-width: 50%;
-    width: auto;
-    height: 600px;
-    transform: translateX(50%);
+.event .event-name{
+    margin-bottom: 20px;
+}
+
+
+.event p, .event h2, .event li{
+    color: #082c4c;
+}
+
+.event h2{
+    font-size: 6vw;
+    font-weight: 800;
+    line-height: 85%;
+}
+
+
+.event img{
+    width: 100%;
+}
+
+.btn-hack{
+    margin-bottom: 20px;
+}
+
+.btn-hack:hover{
+    background-color: black;
+}
+
+#e7{
+    margin-bottom: 0;
 }
 
 #sponsors-list{
@@ -126,8 +164,12 @@ h1,h2{
 }
 
 .owl-nav{
-    color: white;
+    color: black;
     font-size: 20px;
+}
+
+#sponsors h1{
+    color: black;
 }
 
 #sponsors-list .sponsor{
