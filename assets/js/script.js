@@ -36,17 +36,4 @@ $(function(){
           }); 
       }); 
   });
-
-  $(document).ready(function () {
-    var scroll_pos = 0;
-    $("#events").scroll(function () {
-        scroll_pos = $(this).scrollTop();
-        if (scroll_pos > 210) {
-            $("section").css('background-color', '#1A1A1A');
-        } else {
-            $("section").css('background-color', 'red');
-        }
-        console.log(scroll_pos);
-    });
-});
     

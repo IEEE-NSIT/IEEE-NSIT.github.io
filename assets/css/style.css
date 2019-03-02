@@ -1,30 +1,11 @@
 body{
     color: black;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: "GT-Walsheim_regular", sans-serif;
 }
 
 html, body{
     height: 100%;
-}
-
-.horizontal-heading{
-    margin-bottom: 80px;
-}
-
-.horizontal-heading h5{
-    font-size: 16px;
-    color: #f4c613;
-    text-transform: uppercase;
-    display: inline-block;
-    margin-bottom: 10px;
-}
-
-.horizontal-heading h2{
-    font-size: 42px;
-    font-weight: 100;
-    line-height: 45px;
-    margin: 0px;
 }
 
 section{
@@ -37,7 +18,7 @@ section{
 }
 
 .content-box-lg{
-    padding: 120px 0;
+    padding: 120px 0 0 0;
 }
 
 #preloader{
@@ -137,12 +118,9 @@ h1,h2{
 }
 
 #events{
-    background-color: white;
+    background-color: rgb(241, 245, 247);
 }
 .event{
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
     height: 100vh;
     margin: 50px 0;
     padding: 30px 30px;
@@ -155,16 +133,30 @@ h1,h2{
 
 
 .event p, .event h2, .event li{
-    color: black;
+    color: #082c4c;
 }
 
 .event h2{
-    font-size: 5vw;
-    font-weight: 600;
+    font-size: 6vw;
+    font-weight: 800;
+    line-height: 85%;
 }
+
 
 .event img{
     width: 100%;
+}
+
+.btn-hack{
+    margin-bottom: 20px;
+}
+
+.btn-hack:hover{
+    background-color: black;
+}
+
+#e7{
+    margin-bottom: 0;
 }
 
 #sponsors-list{
