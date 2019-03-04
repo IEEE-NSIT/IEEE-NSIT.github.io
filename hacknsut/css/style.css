@@ -646,19 +646,19 @@ h1, h2, h3, h4, h5,
 
     @media (min-width: 168px) {
       .myimg{
-        width: 330px;
+        width: 250px;
       }}
 
     @media (min-width: 668px) {
       .myimg{
-        width: 550px;
+        width: 360px;
       }
       .site-hero .caption {
         font-size: 1.7rem; } }
 
     @media (min-width: 1192px) {
       .myimg{
-        width: 720px;
+        width: 500px;
       }
       .site-hero h1 {
         font-size: 6rem; } }
