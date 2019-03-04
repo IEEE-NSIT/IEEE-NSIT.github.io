@@ -1,4 +1,33 @@
 /* Base */
+.single{
+  padding:2rem;
+}
+.frame5 {
+    height: auto;
+    padding: 150px 0px;
+    background-color: #669999;
+    color: white;
+    font-family: 'Didact Gothic';
+    text-align: center;
+}
+.frame {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+div, body, ul, li {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+
 body {
   line-height: 1.7;
   color: #cfcfd1;
@@ -614,14 +643,30 @@ h1, h2, h3, h4, h5,
     background: linear-gradient(to right, #c70039, #ff5733 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
-    @media (min-width: 992px) {
+
+    @media (min-width: 168px) {
+      .myimg{
+        width: 330px;
+      }}
+
+    @media (min-width: 668px) {
+      .myimg{
+        width: 550px;
+      }
+      .site-hero .caption {
+        font-size: 1.7rem; } }
+
+    @media (min-width: 1192px) {
+      .myimg{
+        width: 720px;
+      }
       .site-hero h1 {
         font-size: 6rem; } }
   .site-hero .caption {
     color: #fff; }
-    @media (min-width: 768px) {
-      .site-hero .caption {
-        font-size: 1.7rem; } }
+   
+
+       
 
 .btn-custom {
   text-transform: uppercase;
