@@ -121,7 +121,7 @@ h1,h2{
     background-color: rgb(241, 245, 247);
 }
 .event{
-    height: 100vh;
+    height: 80vh;
     margin: 50px 0;
     padding: 30px 30px;
     opacity: 0;
