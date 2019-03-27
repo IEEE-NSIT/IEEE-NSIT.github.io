@@ -156,6 +156,10 @@ h1,h2{
     background-color: black;
 }
 
+.btn-wwcd:hover{
+    background-color: black;
+}
+
 #e7{
     margin-bottom: 0;
 }
