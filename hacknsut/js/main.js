@@ -23,7 +23,7 @@ jQuery(document).ready(function($) {
   $('#thumbs').niceScroll();
   
   $('.thumbs_style img').first().css('border', '3px solid #fff');
-  $('#image').html(" <img class='gallery_img_style' src='hacknsut/images/" + name + "' > ");
+  $('#image').html(" <img class='gallery_img_style' src='hackNSUT/images/" + name + "' > ");
   
   loop = setInterval(slider, 3000);
   
@@ -43,7 +43,7 @@ jQuery(document).ready(function($) {
       name = list[3];
   
       $('#image img').fadeOut(300, function() {
-          $('#image').html(" <img class='gallery_img_style' src='hacknsut/images/" + name + "' > ");
+          $('#image').html(" <img class='gallery_img_style' src='hackNSUT/images/" + name + "' > ");
           $('#image img').fadeOut(0);
           $('#image img').fadeIn(300);
   
@@ -51,7 +51,7 @@ jQuery(document).ready(function($) {
   
       $('#large_img').fadeOut(300, function() {
   
-          $(this).attr('src', 'hacknsut/images/' + name);
+          $(this).attr('src', 'hackNSUT/images/' + name);
           $(this).fadeIn(300);
   
       });
@@ -103,7 +103,7 @@ jQuery(document).ready(function($) {
       name = list[3];
   
       $('#image img').fadeOut(300, function() {
-          $('#image').html(" <img class='gallery_img_style' src='hacknsut/images/" + name + "' > ");
+          $('#image').html(" <img class='gallery_img_style' src='hackNSUT/images/" + name + "' > ");
           $('#image img').fadeOut(0);
           $('#image img').fadeIn(300);
   
@@ -117,7 +117,7 @@ jQuery(document).ready(function($) {
   
   name = $('.gallery_img_style').attr('src');
   
-  $('body').append("<div id='enlarge'><div> <img id='large_img' src='" + name + "'> <img id='large_close' src='hacknsut/images/icons/close.png'> <img id='large_left' src='hacknsut/images/icons/left.png'> <img id='large_right' src='hacknsut/images/icons/right.png'> <img id='large_pause' src='hacknsut/images/icons/pause.png'> <img id='large_play' src='hacknsut/images/icons/play.png'>  </div></div> ");
+  $('body').append("<div id='enlarge'><div> <img id='large_img' src='" + name + "'> <img id='large_close' src='hackNSUT/images/icons/close.png'> <img id='large_left' src='hackNSUT/images/icons/left.png'> <img id='large_right' src='hackNSUT/images/icons/right.png'> <img id='large_pause' src='hackNSUT/images/icons/pause.png'> <img id='large_play' src='hackNSUT/images/icons/play.png'>  </div></div> ");
   
   $('#enlarge').hide();
   
@@ -237,7 +237,7 @@ jQuery(document).ready(function($) {
       name = list[3];
   
       $('#image img').fadeOut(250, function() {
-          $('#image').html(" <img class='gallery_img_style' src='hacknsut/images/" + name + "' > ");
+          $('#image').html(" <img class='gallery_img_style' src='hackNSUT/images/" + name + "' > ");
           $('#image img').fadeOut(0);
           $('#image img').fadeIn(250);
   
@@ -245,7 +245,7 @@ jQuery(document).ready(function($) {
   
       $('#large_img').fadeOut(250, function() {
   
-          $(this).attr('src', 'hacknsut/images/' + name);
+          $(this).attr('src', 'hackNSUT/images/' + name);
           $(this).fadeIn(250);
   
       });
@@ -276,7 +276,7 @@ jQuery(document).ready(function($) {
       name = list[3];
   
       $('#image img').fadeOut(300, function() {
-          $('#image').html(" <img class='gallery_img_style' src='hacknsut/images/" + name + "' > ");
+          $('#image').html(" <img class='gallery_img_style' src='hackNSUT/images/" + name + "' > ");
           $('#image img').fadeOut(0);
           $('#image img').fadeIn(300);
   
@@ -284,7 +284,7 @@ jQuery(document).ready(function($) {
   
       $('#large_img').fadeOut(250, function() {
   
-          $(this).attr('src', 'hacknsut/images/' + name);
+          $(this).attr('src', 'hackNSUT/images/' + name);
           $(this).fadeIn(250);
   
       });
